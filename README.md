@@ -15,8 +15,8 @@ API parameters are extra pieces of information that you send with a request to g
 **🧩 Types of Parameters in FastAPI**:
 
 FastAPI allows you to use many types of parameters. In this step, we will focus on:
-1.Path Parameters: Parts of the URL path that are variable (e.g., /items/{item_id})
 
+1.Path Parameters: Parts of the URL path that are variable (e.g., /items/{item_id})
 2. Query Parameters: Parameters appended to the URL after a ? (e.g., /items?skip=0&limit=10)
 3. Request Body: Data sent in the body of the request (usually in JSON format)
 4.  Headers: Custom HTTP headers sent with the request
