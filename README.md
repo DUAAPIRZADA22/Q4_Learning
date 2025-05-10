@@ -22,6 +22,6 @@ Example: /items?skip=0&limit=10
 1. Use Path() for validating path parameters
 2. Use Path() for validating path parameters
 3. Both Path() and Query() support various validation options
-4.FastAPI will automatically validate all parameters according to your specifications
-5.When validation fails, FastAPI returns a 422 Unprocessable Entity status code with detailed error information
+4. FastAPI will automatically validate all parameters according to your specifications
+5. When validation fails, FastAPI returns a 422 Unprocessable Entity status code with detailed error information
    
