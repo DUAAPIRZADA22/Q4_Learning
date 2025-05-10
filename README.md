@@ -11,19 +11,17 @@ API parameters are extra pieces of information that you send with a request to g
 FastAPI allows you to use many types of parameters. In this step, we will focus on:
 
 Path Parameters: Part of the URL
+
 Example: /items/{item_id}
 
 Query Parameters: Added to the URL with ?
+
 Example: /items?skip=0&limit=10
 
 **Key Points to Remember:**
 1. Use Path() for validating path parameters
 2. Use Path() for validating path parameters
-3. Both Path() and Query() support various validation options:
-   *ge, gt, le, lt for numerical constraints
-*min_length, max_length for string length
-*regex or pattern for pattern matching
-*enum for restricting to a set of values
+3. Both Path() and Query() support various validation options
 4.FastAPI will automatically validate all parameters according to your specifications
 5.When validation fails, FastAPI returns a 422 Unprocessable Entity status code with detailed error information
    
