@@ -18,11 +18,14 @@ Example: /items?skip=0&limit=10
 
 **Key Points to Remember:**
 Use Path() for validating path parameters
+
 Use Query() for validating query parameters
+
 Both Path() and Query() support various validation options:
-ge, gt, le, lt for numerical constraints
-min_length, max_length for string length
-regex or pattern for pattern matching
-enum for restricting to a set of values
-FastAPI will automatically validate all parameters according to your specifications
-When validation fails, FastAPI returns a 422 Unprocessable Entity status code with detailed error information
+
+1.ge, gt, le, lt for numerical constraints
+2.min_length, max_length for string length
+3.regex or pattern for pattern matching
+4.enum for restricting to a set of values
+5.FastAPI will automatically validate all parameters according to your specifications
+-- When validation fails, FastAPI returns a 422 Unprocessable Entity status code with detailed error information
