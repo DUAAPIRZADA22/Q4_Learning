@@ -16,12 +16,20 @@ Dependency Injection allows us to share reusable logic across different API endp
 
 **Using Classes as Dependencies:** Simulating a database with a class-based dependency.
 
+
+
 **FastAPI Installation**:
+
 uv init fastdca_p1
 cd fastdca_p1
+
 uv venv
+
 source .venv/bin/activate
+
 uv add "fastapi[standard]"
 
+
 **Run the Application**
+
 uvicorn main:app --reload
